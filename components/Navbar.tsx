@@ -5,7 +5,7 @@ import Breadcrumb from "./Breadcrumb";
 
 const Navbar = () => {
   return (
-    <nav className="w-full py-3 text-gray-500 hover:text-gray-700 focus:text-gray-700 navbar navbar-expand-lg navbar-light">
+    <nav className="w-full py-3 px-3 text-gray-500 hover:text-gray-700 focus:text-gray-700 navbar navbar-expand-lg navbar-light">
       <div className="flex justify-between  max-w-5xl mx-auto">
         <div className="bg-grey-light rounded-md" aria-label="breadcrumb">
           <Link legacyBehavior href="/">
